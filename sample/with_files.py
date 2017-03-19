@@ -25,4 +25,4 @@ with open('/workspace/python/case.txt', 'r') as f1:
 with open('/workspace/python/case.txt', 'r') as f1:
     print('open as readlines...')
     for line in f1.readlines():  #  一次读取所有内容并按行返回list
-        print(line.strip())
+        print(line.strip())  # 去掉最后的换行符
